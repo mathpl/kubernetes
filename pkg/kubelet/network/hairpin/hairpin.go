@@ -31,7 +31,7 @@ import (
 const (
 	sysfsNetPath            = "/sys/devices/virtual/net"
 	hairpinModeRelativePath = "brport/hairpin_mode"
-	hairpinEnable           = "1"
+	hairpinEnable           = "0"
 )
 
 var (
